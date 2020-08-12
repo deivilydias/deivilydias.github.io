@@ -1,12 +1,6 @@
 html, body {
     margin: 0;
 }
-#menu {
-    float: right;
-    margin-right: 5%;
-    list-style: none;
-    margin-top: 0px;
-}
 #logo {
     width: 96px;
     position: absolute;
@@ -154,19 +148,22 @@ section {
         visibility: hidden;
     } 
     #titulo{
-        font-size: 70px
+        font-size: 65px
     }
     #imagem_fundo{
         background-position: center;
     }
     .colunas, .lateral, .lateral_3, .lateral_4 {
          display: block;   
-         width: 80%;
-         padding: 0;
-         margin: 10px auto;
+         width: 85%;
+         padding: 5%;
+         margin: 0px;
          float: none;
     }
     #acao {
-        visibility: hidden;
+        display: none;
+    }
+    body {
+        overflow-x: hidden;
     }
  }
